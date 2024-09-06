@@ -1,0 +1,23 @@
+{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 2rem;
+    font-family: Howdy_lemon, Howdy Lemon;
+}
+@font-face {
+    font-family: 'Howdy_lemon';
+    src: url('Howdy Lemon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

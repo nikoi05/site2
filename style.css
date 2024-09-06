@@ -1,0 +1,44 @@
+{
+padding: 0;
+margin: 0;
+box-sizing::content-box;
+overflow:hidden;
+}
+.container {
+    margin:0;
+    height: 100vh;
+    width: 100%;
+ 
+    background: linear-gradient(45deg, rgba(252,225,228,1) 0%, rgba(221, 111, 158,1) 50%, rgba(249,79,104,1) 100%);
+    background-size: 400% 400%;
+    animation:color 5s linear infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100 50%;
+    }
+    100%{
+        background-position: 0 50%;
+
+    }
+}
+
+    
+
+@font-face {
+    font-family: 'Howdy_lemon';
+    src: url('Howdy Lemon.ttf') format('truetype'); /* or .woff, .woff2, etc. */
+    font-weight: normal;
+    font-style: normal;
+}
+.but{
+    transition: ease-out 0.3s;
+    align:center;
+    cursor:pointer;
+}
+.but:hover{
+    box-shadow: inset 300px 000 rgba(249,79,104,1);
+}

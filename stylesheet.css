@@ -1,0 +1,112 @@
+{ padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    background: linear-gradient(45deg, rgba(252,225,228,1) 0%, rgba(221, 111, 158,1) 50%, rgba(249,79,104,1) 100%);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100 50%;
+    }
+    100%{
+        background-position: 0 50%;
+
+    }
+}/* Add this to your existing CSS code */
+
+@font-face {
+    font-family: 'Howdy_lemon';
+    src: url('Howdy Lemon.ttf') format('truetype'); /* or .woff, .woff2, etc. */
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+<<<<<<< Tabnine <<<<<<<
+.container {
+    /* existing styles */
+    font-family: 'Howdy_lemon', sans-serif;undefined+
+    /* other styles for the header */undefined+
+}
+>>>>>>> Tabnine >>>>>>>
+
+header {
+    font-family: 'Howdy_lemon', sans-serif;
+    /* other styles for the header */
+}
+.button1{
+transition: ease-out 0.3s;
+}
+.button1:hover{
+    box-shadow: inset 300px 000 rgba(249,79,104,1);
+}
+
+.bt1{
+    width: 200px;
+    height: 70px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:Howdy_lemon;
+    color:darksalmon;
+    cursor: pointer;
+    transition:ease-out 0.3s;
+}
+.bt1:hover{
+    box-shadow: inset 300px 000 rgba(249,79,104,1);
+
+}
+.bt2{
+    width: 200px;
+    height: 70px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:Howdy_lemon;
+    color:darksalmon;
+    cursor:pointer;
+    transition:ease-out 0.3s;
+    
+}
+.bt2:hover{
+    box-shadow: inset 300px 000 rgba(249,79,104,1);
+}
+.bt3{
+    width: 200px;
+    height: 70px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Howdy_lemon;
+    color:darksalmon;
+    cursor:pointer;
+    transition:ease-out 0.3s;
+    
+}
+.bt3:hover{
+    box-shadow: inset 300px 000 rgba(249,79,104,1);
+}
