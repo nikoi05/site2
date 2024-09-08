@@ -121,7 +121,8 @@
     animation: revealLetter 6s ease forwards;
     overflow-y: auto; /* Allows scrolling if content is too long */
     font-size: 25px; /* Smaller font size for essay */
-    line-height: 1.5; /* Adjust line height for readability */
+    line-height: 1.5;
+    font-family: handwritten, Handwritten;/* Adjust line height for readability */
 }
 
 /* Animation for the top part of the envelope */
